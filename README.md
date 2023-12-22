@@ -33,7 +33,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [Example tmux config](https://github.com/tony/tmux-config) :green_book: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar
 - [Guide to customizing tmux.conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
 - [practical tmux](https://mutelight.org/practical-tmux)
-- [tmux-extra](https://github.com/brandur/tmux-extra) Configuration and scripts for sane Tmux default behavior
 - [tmux yank to system clipboard](https://www.grailbox.com/2020/08/use-system-clipboard-for-vi-copy-mode-in-tmux-in-macos-and-linux/) A way to get the System Clipboard to work with tmux yank on a Mac via `pbcopy` and linux via `xclip`
 
 ## <a name="tools"></a>Tools and session management
