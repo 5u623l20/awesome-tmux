@@ -11,11 +11,8 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [Cheat sheets](#cheatsheets)
 - [Configuration](#configuration)
 - [Tools and session management](#tools)
-- [Themes](#themes)
 - [Status Bar](#status-bar)
 - [Plugins](#plugins)
-- [Books](#books)
-- [Miscellaneous](#miscellaneous)
 
 ## Tutorials
 
@@ -32,8 +29,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [Oh My Tmux!](https://github.com/gpakosz/.tmux) Powerline-like theme, vim bindings, SSH aware, improved maximize pane, ...
 - [Example tmux config](https://github.com/tony/tmux-config) :green_book: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar
 - [Guide to customizing tmux.conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
-- [practical tmux](https://mutelight.org/practical-tmux)
-- [tmux yank to system clipboard](https://www.grailbox.com/2020/08/use-system-clipboard-for-vi-copy-mode-in-tmux-in-macos-and-linux/) A way to get the System Clipboard to work with tmux yank on a Mac via `pbcopy` and linux via `xclip`
 
 ## <a name="tools"></a>Tools and session management
 
@@ -64,25 +59,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [twm](https://github.com/vinnymeller/twm) A highly configurable workspace manager that is easy to extend with shell scripts, written in Rust
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) Vim and tmux integration
 - [xpanes](https://github.com/greymd/tmux-xpanes) Awesome tmux-based terminal divider
-
-## Themes
-
-- [catppuccin](https://github.com/catppuccin/tmux) Catppuccin `Latte`, `Frappe`, `Macchiato`, and `Mocha` themes for tmux.
-- [dracula/tmux](https://github.com/dracula/tmux) 🧛🏻‍♂️ The official [dracula theme](https://draculatheme.com/) for tmux
-- [minimal-tmux-status](https://github.com/niksingh710/minimal-tmux-status/): Minimal theme with only required information in status bar and prefix indicator. (changes only status bar)
-- [nord tmux](https://github.com/arcticicestudio/nord-tmux) An arctic, north-bluish clean and elegant tmux color theme.
-- [tmux-base16-statusline](https://github.com/jatap/tmux-base16-statusline) Statusline based on [base16-shell](https://github.com/chriskempson/base16-shell)
-- [tmux-colors-solarized](https://github.com/seebi/tmux-colors-solarized) A color theme for the tmux terminal multiplexer using Ethan Schoonover’s Solarized color scheme
-- [tmux-dark-notify](https://github.com/erikw/tmux-dark-notify) - Make tmux's theme follow macOS dark/light mode.
-- [tmux-gruvbox](https://github.com/egel/tmux-gruvbox) Light and dark tmux theme
-- [tmux-nova](https://github.com/o0th/tmux-nova) Fully customizable tmux theme
-- [tmux-power](https://github.com/wfxr/tmux-power) 8 powerline style themes for tmux, easily to expand.
-- [tmux-snazzy](https://github.com/ivnvxd/tmux-snazzy) Elegant tmux theme with bright colors
-- [tmux-themepack](https://github.com/jimeh/tmux-themepack) Various themes for tmux
-- [tmux-tokyo-night](https://github.com/fabioluciano/tmux-tokyo-night) A vim inspired tokyo night theme
-- [tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux) tokyo-night theme for tmux
-- [tomorrow](https://github.com/edouard-lopez/tmux-tomorrow/): 5 flavors of Tomorrow theme based on specifications from [Tomorrow Theme](https://github.com/chriskempson/tomorrow-theme) (_i.e._ _dark_/_blue_ and _light_).
-- [tmux2k](https://github.com/2KAbhishek/tmux2k): Colorful and informative tmux theme.
 
 ## Status Bar
 
@@ -157,8 +133,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [tmux-tilish](https://github.com/jabirali/tmux-tilish) Turn tmux into a dynamic window manager with intuitive keybindings (inspired by i3wm/sway)
 - [tmux-tilit](https://github.com/2KAbhishek/tmux-tilit) A more streamlined and enhanced version of tmux-tilish focusing on simplicity.
 - [tmux-timetrap](https://github.com/croxarens/tmux-timetrap) Keep your time tracked directly with TMUX (The plugin is just a wrapper for [timetrap](https://github.com/samg/timetrap))
-- [tmux-wormhole](https://github.com/gcla/tmux-wormhole) Use tmux to download files with magic wormhole
-- [tmux-pianobar](https://github.com/GoHarder/tmux-pianobar) A menu and status bar widget for Pianobar
 - [tmux-plugins](https://github.com/tmux-plugins) Official tmux plugins
   - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum) Continuous saving of tmux environment. Automatic restore when tmux is started. Automatic tmux start when computer is turned on.
   - [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat) A plugin that enhances tmux search
@@ -172,21 +146,3 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
   - [tmux-tpm](https://github.com/tmux-plugins/tpm) Tmux Plugin Manager
   - [tmux-urlview](https://github.com/tmux-plugins/tmux-urlview) Quickly open any url on your terminal window! (No commits since 2016, see tmux-urlscan or tmux-fzf-url for a maintained alternative.)
   - [tmux-yank](https://github.com/tmux-plugins/tmux-yank) Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin.
-
-### Development and testing
-
-- [tmux-example-plugin](https://github.com/tmux-plugins/tmux-example-plugin) Example Tmux plugin that actually demonstrates how to build plugins for Tmux
-- [tmux-test](https://github.com/tmux-plugins/tmux-test) A small framework for isolated testing of tmux plugins.
-
-## Books
-
-- [tmux 2: Productive Mouse-Free Development](https://pragprog.com/book/bhtmux2/tmux-2/)
-- [The Tao of tmux](https://leanpub.com/the-tao-of-tmux)
-
-## Miscellaneous
-
-- [sixel-tmux](https://github.com/csdvrx/sixel-tmux) a fork of tmux, with just one goal: having the most reliable support of graphics
-- [Statically linked tmux](https://gist.github.com/rothgar/719ef460efc214c8d222) Install new version without root access
-- [sublime-tmux](https://github.com/huntie/sublime-tmux) Sublime Text plugin to interact with tmux sessions
-- [vim-tmux](https://github.com/tmux-plugins/vim-tmux) vim plugin for tmux.conf
-- [tmux-tail-f](https://github.com/mapio/tmux-tail-f) A tool to tail multiple files using tmux
