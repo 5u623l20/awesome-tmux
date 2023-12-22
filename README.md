@@ -9,7 +9,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 
 - [Tutorials](#tutorials)
 - [Cheat sheets](#cheatsheets)
-- [Configuration](#configuration)
 - [Tools and session management](#tools)
 - [Status Bar](#status-bar)
 - [Plugins](#plugins)
@@ -24,20 +23,11 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 
 - [tmux-cheatsheet.markdown](https://gist.github.com/MohamedAlaa/2961058)
 
-## Configuration
-
-- [Oh My Tmux!](https://github.com/gpakosz/.tmux) Powerline-like theme, vim bindings, SSH aware, improved maximize pane, ...
-- [Example tmux config](https://github.com/tony/tmux-config) :green_book: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar
-- [Guide to customizing tmux.conf](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
-
 ## <a name="tools"></a>Tools and session management
 
 - [automux](https://github.com/sriramkandukuri/automux) Wrappers to tmux commands, useful for tmux based automation
 - [disconnected](https://github.com/austinwilcox/disconnected) A session manager written in Deno with json as the config files
 - [dmux](https://github.com/zdcthomas/dmux) Configurable tmux workspace manager written in Rust
-- [libtmux](https://github.com/tmux-python/libtmux) Python API for tmux
-- [powerline](https://github.com/powerline/powerline) Statusline plugin for vim, and provides statuslines and prompts for several other applications including tmux
-- [tmux-powerline](https://github.com/erikw/tmux-powerline) A hackable statusbar for tmux consisting of dynamic & beautiful looking segments, inspired by vim-powerline, written purely in bash.
 - [smug](https://github.com/ivaaaan/smug) A session manager for tmux written in Go
 - [sessionx](https://github.com/omerxx/tmux-sessionx) A Tmux session manager, with preview, fuzzy finding, and MORE
 - [t](https://github.com/joshmedeski/t-smart-tmux-session-manager) The smart tmux session manager
@@ -46,7 +36,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [teamocil](https://github.com/remi/teamocil) A simple tool used to automatically create windows and panes in tmux with YAML files
 - [tmex](https://github.com/evnp/tmex) A minimalist tmux layout manager
 - [tmux-cssh](https://github.com/zinic/tmux-cssh) Tmux with a "ClusterSSH"-like behavior
-- [tmux-conf](https://github.com/jaclu/tmux-conf) Meant for users running tmux on multiple hosts, not always running the same version. Generates tmux config files using version checks
 - [tmux-nav-master](https://github.com/TheSast/tmux-nav-master) Easy cross-navigation between tmux and other terminal applications.
 - [tmux-project](https://github.com/sei40kr/tmux-project) Search projects and open them in a new session
 - [tmux-suspend](https://github.com/MunifTanjim/tmux-suspend) Suspend local session for painlessly working with nested remote session.
@@ -62,8 +51,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 
 ## Status Bar
 
-- [aws-tmux](https://github.com/darko-mesaros/aws-tmux) Tmux plugin that gives you access to some (potentially) useful information about AWS.
-- [gitmux](https://github.com/arl/gitmux) Show Git status in tmux status bar
 - [tmux-battery](https://github.com/tmux-plugins/tmux-battery) Plug and play battery percentage and icon indicator for Tmux.
 - [tmux-clima](https://github.com/vascomfnunes/tmux-clima) Displays the current temperature and weather condition using the OpenWeather API.
 - [tmux-colortag](https://github.com/Determinant/tmux-colortag) a plugin/theme that colors the tmux window tags.
@@ -95,17 +82,12 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [tmux-weather](https://github.com/jdxcode/tmux-weather) Add weather status via forcast.io
 - [tmux-weather](https://github.com/xamut/tmux-weather) Show current weather using wttr.in
 - [tmux-window-name](https://github.com/ofirgall/tmux-window-name) Names your tmux windows smartly.
-- [tmux-weather-info-yr](https://github.com/Feqzz/tmux-weather-info-yr) Displays the current temperature and weather based on your location via yr.no
-- [tmux-world-clock](https://github.com/alexanderjeurissen/tmux-world-clock) Show multiple timezones using Olson tz database.
 
 ## Plugins
 
-- [tmux2html](https://github.com/tweekmonster/tmux2html) :cat2: Render full tmux windows or individual panes as HTML
-- [tmux-better-mouse-mode](https://github.com/NHDaly/tmux-better-mouse-mode) A tmux plugin to better manage and configure the mouse.
 - [extrakto](https://github.com/laktak/extrakto) tmux clipboard copy and output completions
 - [muxile](https://github.com/bjesus/muxile) - View and control your tmux session from your mobile.
 - [tmux-autoreload](https://github.com/b0o/tmux-autoreload) - Watches your tmux configuration file and automatically reloads it on change.
-- [tmux-bitwarden](https://github.com/Alkindi42/tmux-bitwarden) Access your Bitwarden login items in a tmux pane.
 - [tmux-browser](https://github.com/ofirgall/tmux-browser) Web browser sessions attached to tmux sessions.
 - [tmux-cht-sh](https://github.com/kenos1/tmux-cht-sh) Access cheatsheets easily in a popup
 - [tmux-copytk](https://github.com/CrispyConductor/tmux-copy-toolkit) - Multi utility rapid copy toolkit.
@@ -120,7 +102,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 - [tmux-modal](https://github.com/whame/tmux-modal) - Execute complex tmux commands in just a few keystrokes with a modal mode that is designed to be efficient, easy to remember and comfortable.
 - [tmux-mouse-swipe](https://github.com/jaclu/tmux-mouse-swipe) - Switch Window or Session by clicking right mouse button and swiping.
 - [tmux-notify](https://github.com/rickstaa/tmux-notify) A plugin to notify you when processes are finished.
-- [tmux-open-nvim](https://github.com/trevarj/tmux-open-nvim) - A plugin to help open files in a running instance of Neovim. Pairs well with tmux-fingers or tmux-open.
 - [tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) A lightning fast version of tmux-fingers written in Rust, copy/pasting tmux like vimium/vimperator
 - [tmux-1password](https://github.com/yardnsm/tmux-1password) Access your 1Password login items in a tmux pane.
 - [tmux-jump](https://github.com/schasse/tmux-jump) Vimium/Easymotion like navigation for tmux.
@@ -142,7 +123,5 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
   - [tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control) standard pane key-bindings for tmux
   - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect) Persists tmux environment across system restarts.
   - [tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist) Lightweight tmux utils for manipulating sessions
-  - [tmux-sidebar](https://github.com/tmux-plugins/tmux-sidebar) A sidebar with the directory tree for the current path. Tries to make tmux more IDE like.
   - [tmux-tpm](https://github.com/tmux-plugins/tpm) Tmux Plugin Manager
   - [tmux-urlview](https://github.com/tmux-plugins/tmux-urlview) Quickly open any url on your terminal window! (No commits since 2016, see tmux-urlscan or tmux-fzf-url for a maintained alternative.)
-  - [tmux-yank](https://github.com/tmux-plugins/tmux-yank) Tmux plugin for copying to system clipboard. Works on OSX, Linux and Cygwin.
