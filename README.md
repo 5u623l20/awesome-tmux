@@ -8,7 +8,6 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 ## Table of Contents
 
 - [Tutorials](#tutorials)
-- [Cheat sheets](#cheatsheets)
 - [Tools and session management](#tools)
 - [Status Bar](#status-bar)
 - [Plugins](#plugins)
@@ -17,22 +16,9 @@ List of helpful tmux links for various tutorials, plugins, and configuration set
 
 - [Tmux crash course](https://thoughtbot.com/blog/a-tmux-crash-course)
 - [Tmux primer](https://danielmiessler.com/study/tmux/)
-- [Tmux and Vim together](https://www.bugsnag.com/blog/tmux-and-vim)
-
-## <a name="cheatsheets"></a>Cheat Sheets
-
-- [tmux-cheatsheet.markdown](https://gist.github.com/MohamedAlaa/2961058)
 
 ## <a name="tools"></a>Tools and session management
 
-- [smug](https://github.com/ivaaaan/smug) A session manager for tmux written in Go
-- [sessionx](https://github.com/omerxx/tmux-sessionx) A Tmux session manager, with preview, fuzzy finding, and MORE
-- [t](https://github.com/joshmedeski/t-smart-tmux-session-manager) The smart tmux session manager
-- [tat](https://github.com/ryandotsmith/tat) Tab completion for tmux sessions
-- [tea](https://github.com/2KAbhishek/tmux-tea) Session manager with previews, integration with tmuxinator, fzf and more, inspired by t
-- [tmex](https://github.com/evnp/tmex) A minimalist tmux layout manager
-- [tmux-cssh](https://github.com/zinic/tmux-cssh) Tmux with a "ClusterSSH"-like behavior
-- [tmux-project](https://github.com/sei40kr/tmux-project) Search projects and open them in a new session
 - [tmux-suspend](https://github.com/MunifTanjim/tmux-suspend) Suspend local session for painlessly working with nested remote session.
 - [tmux-up](https://github.com/jamesottaway/tmux-up) Bootstrap new `tmux` sessions without complex tools, DSLs, or dependencies
 - [tmuxake](https://github.com/nkh/tmuxake) A side-pane manager for tmux
